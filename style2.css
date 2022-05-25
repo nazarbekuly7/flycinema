@@ -1,0 +1,388 @@
+body{
+  margin: 0;
+}
+.cinema-karib {
+/* dialog bg */
+
+
+position: absolute;
+width: 65%;
+height: 453px;
+margin-left: 17.45%;
+top: 440px;
+
+background: #FAFAFA;
+box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.22), 0px 19px 38px rgba(0, 0, 0, 0.3);
+}
+.home{
+  position: relative;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+}
+.topic{
+  position: absolute;
+  margin-left: 41.5%;
+  z-index: 1;
+  text-align: center;
+
+  top: 45px;
+
+font-family: Abhaya Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 81.69%;
+/* or 59px */
+
+
+letter-spacing: 0.125em;
+}
+header{
+
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: #002D4C;
+  top: 0;
+  z-index: 2;
+
+}
+.logo{
+  position: absolute;
+
+  width:35px;
+  margin-left:1.25%;
+  top:5px;
+}
+.phone_number{
+  position: absolute;
+  right: 2.43%;
+  color: white;
+  margin-top: 0.6%;
+  font-size: 19px;
+  top: 3px;
+}
+.logo_phone{
+  position: absolute;
+  width: 35px;
+  right: 10.5%;
+  top: 3px;
+}
+.lang{
+  position: absolute;
+  top: 12px;
+  right: 15%;
+  border-radius: 5px;
+  width: 55px;
+  height: 25px;
+  background-color: #002D4C;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.lang2{
+  position: absolute;
+  top: 12px;
+  right: 15%;
+  border-radius: 5px;
+  width: 55px;
+  height: 25px;
+  background-color: #002D4C;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.figure1{
+  position: absolute;
+  z-index: 1;
+  top: 34.1px;
+  left: 34.15%;
+
+}
+.figure2{
+  position: absolute;
+  z-index: 1;
+  top: 68px;
+
+  right: 34%;
+}
+
+.img-kar {
+  position: absolute;
+  left: 5%;
+  top: 40px;
+}
+
+.zog-kar {
+
+position: absolute;
+left: 37.7558%;
+top: 20px;
+
+font-family: Abhaya Libre;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 81.69%;
+
+letter-spacing: 0.1em;
+}
+
+.par-kar {
+  position: absolute;
+  top: 150px;
+  left: 37.7558%;
+
+  font-family: Abhaya Libre;
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 99.19%;
+/* or 18px */
+
+  letter-spacing: 0.1em;
+}
+
+.inputs {
+position: relative;
+
+width: 180px;
+height: 0px;
+left: 30%;
+top: 1070px;
+
+
+}
+
+.name {
+  position: absolute;
+  left: 40px;
+  top: 0;
+    font-family: Abhaya Libre;
+
+}
+
+.fam-name {
+  position: absolute;
+  left: 0px;
+  top: 20px;
+    font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+    font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  }
+
+.fam-input {
+  position: absolute;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  left: 80px;
+
+}
+
+input[type=email] {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.par-email {
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.email-inp {
+ position: absolute;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  left: 60px;
+  top: 76px;
+}
+
+.city {
+  position: absolute;
+  top: 0;
+  left: 500px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+    font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.par-name {
+    font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.month   {
+    position: absolute;
+  top: 40px;
+  left: 500px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+    font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.days {
+  position: absolute;
+  top: 80px;
+  left: 500px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+    font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.rest {
+
+  position: relative;
+  width: 180px;
+  height: 40px;
+  top: 130px;
+  left: 130%;
+
+
+  background: #032C4A;
+  border-radius: 8px;
+}
+
+.buy_ticket{
+  position: absolute;
+  left: 5px;
+  top: -15px;
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 81.69%;
+/* identical to box height, or 20px */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #FFFFFF;
+
+
+}
+.footer{
+  position: absolute;
+  top: 30px;
+  left: 25%;
+}
+h5{
+  position: absolute;
+  left: 220%;
+  top: -39px;
+  font-size: 22px;
+}
+h6{
+  position: absolute;
+  left: 220%;
+  top: -12px;
+  font-size: 22px;
+}
+h4{
+  position: absolute;
+  left: 220%;
+  top: 50px;
+  font-size: 22px;
+}
+.foot{
+  padding-top: 1300px;
+  display: flex;
+
+}
+
+
+.us{
+  position: relative;
+  top: 0;
+  left: 7%;
+  width: 350px;
+  z-index: 1;
+  right: 7%;
+  
+}
+.us_text{
+  margin-top: -10px;
+  line-height: 30px;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+.us_item{
+  font-size: 26px;
+  color: white;
+  padding-top: 20px;
+}
+.foot_png{
+  position: absolute;
+  z-index: 0;
+  padding-top: 0;
+  width: 100%;
+}
+a:link{
+  color: #DAA520;
+  padding: 2px;
+}
+a:hover{
+
+  color: #DAA520;
+}
+.sponsor{
+  padding-top: 40px;
+  height: 30px;
+}
+.sponsor_items{
+  display: flex;
+  padding-right: 15%;
+  padding-left: 15%;
+  justify-content: space-between;
+}
+.spon_icon{
+  width: 75px;
+}
+
+hr{
+  margin-bottom: 0.5px;
+}
+.next{
+  display: flex;
+  margin-left: 125%;
+
+}
+.next_item{
+  padding-left: 20px;
+}

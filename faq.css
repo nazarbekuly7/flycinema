@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+}
+.home{
+  position: relative;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+}
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.topic{
+  position: absolute;
+  margin-left: 41.5%;
+  z-index: 1;
+  text-align: center;
+
+  top: 90px;
+
+font-family: Abhaya Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 81.69%;
+/* or 59px */
+
+
+letter-spacing: 0.125em;
+}
+.figure1{
+  position: absolute;
+  z-index: 1;
+  top: 34.1px;
+  left: 34.15%;
+
+}
+.figure2{
+  position: absolute;
+  z-index: 1;
+  top: 68px;
+
+  right: 34%;
+}
+.button{
+  position: absolute;
+  z-index: 1;
+  top: 230px;
+  left: 44%;
+  display: inline-block;
+	padding: .75rem 1.25rem;
+	border-radius: 10rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .15rem;
+	transition: all .3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+  color: white;
+  background-color: #032C4A;
+}
+header{
+
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #002D4C;
+  top: 0;
+  z-index: 2;
+
+}
+.logo{
+  position: absolute;
+
+  width:35px;
+  margin-left:1.25%;
+  top:5px;
+}
+.phone_number{
+  position: absolute;
+  right: 2.43%;
+  color: white;
+  margin-top: 0.6%;
+  font-size: 19px;
+  top: 3px;
+}
+.logo_phone{
+  position: absolute;
+  width: 35px;
+  right: 10.5%;
+  top: 3px;
+}
+.lang{
+  position: absolute;
+  top: 12px;
+  right: 15%;
+  border-radius: 5px;
+  width: 55px;
+  height: 25px;
+  background-color: #002D4C;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.lang2{
+  position: absolute;
+  top: 12px;
+  right: 15%;
+  border-radius: 5px;
+  width: 55px;
+  height: 25px;
+  background-color: #002D4C;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+h2{
+  font-size: 36px;
+  letter-spacing: 0.135em;
+  color: white;
+
+}
+.phrase{
+  padding-top: 20px;
+  width: 1443px;
+  height: 86px;
+  padding-left: 5%;
+  background-color: #1B2A62;
+  /*margin-left: 0;*/
+}
+.ask{
+  width: 100%;
+  height: 100px;
+}
+h3{
+  font-size: 48px;
+  letter-spacing: 0.125em;
+  padding-left: 5%;
+  padding-top: 30px;
+}
+.line2{
+  position: absolute;
+  top: 760px;
+  width: 100%;
+}
+.items{
+  width: 370px;
+
+  padding-left: 15%;
+  padding-top: 100px;
+}
+h4{
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 24px;
+  background-color: #3E7CDA;
+  height: 50px;
+}
+p{
+  color: white;
+  padding-left: 10px;
+  padding-top: 20px;
+  background-color: #38429B;
+  margin-top: -32px;
+  height: 210px;
+}

@@ -1,0 +1,420 @@
+body{
+  margin: 0;
+}
+.home{
+  position: relative;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+}
+.logo{
+  position: absolute;
+
+  width:35px;
+  margin-left:1.25%;
+  top:5px;
+}
+.phone_number{
+  position: absolute;
+  right: 2.43%;
+  color: white;
+  margin-top: 0.6%;
+  font-size: 19px;
+  top: 3px;
+}
+.logo_phone{
+  position: absolute;
+  width: 35px;
+  right: 10.5%;
+  top: 3px;
+}
+
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: #002D4C;
+  top: 0;
+  z-index: 2;
+
+}
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.topic{
+  position: absolute;
+  margin-left: 41.5%;
+  z-index: 1;
+  text-align: center;
+
+  top: 45px;
+
+font-family: Abhaya Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 81.69%;
+/* or 59px */
+
+
+letter-spacing: 0.125em;
+}
+.figure1{
+  position: absolute;
+  z-index: 1;
+  top: 34.1px;
+  left: 34.15%;
+
+}
+.figure2{
+  position: absolute;
+  z-index: 1;
+  top: 68px;
+
+  right: 34%;
+}
+.button{
+  position: absolute;
+  z-index: 1;
+  top: 230px;
+  left: 44%;
+  display: inline-block;
+	padding: .75rem 1.25rem;
+	border-radius: 10rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .15rem;
+	transition: all .3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+  color: white;
+  background-color: #032C4A;
+}
+.lang{
+  position: absolute;
+  top: 12px;
+  right: 15%;
+  border-radius: 5px;
+  width: 55px;
+  height: 25px;
+  background-color: #002D4C;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.exit{
+  position: absolute;
+  top: 12px;
+  right: 20%;
+  border-radius: 5px;
+  width: 55px;
+  height: 25px;
+  background-color: #002D4C;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.lang2{
+  position: absolute;
+  top: 12px;
+  right: 20%;
+  border-radius: 5px;
+  width: 55px;
+  height: 25px;
+  background-color: #002D4C;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.center{
+  position: relative;
+  top:40px;
+  display: block;
+}
+.open{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-size: 40px;
+}
+.content1{
+  position: relative;
+  left: 12%;
+  display: flex;
+
+}
+.paragraph1{
+  /*position: absolute;*/
+  padding-left: 70px;
+  top: 150px;
+  text-align:right;
+
+
+}
+.image1{
+  position: absolute;
+
+}
+.services{
+  position: relative;
+  padding-top: 40px;
+  padding-left: 173px;
+
+}
+.services_item{
+  position: relative;
+  display: flex;
+  padding-top: 70px;
+}
+.services_text{
+  position:absolute;
+  font-size: 24px;
+  padding-left: 80px;
+  width: 300px;
+}
+.art{
+  position: absolute;
+  z-index: 0;
+  right:7.8%;
+  top: 40px;
+}
+h4{
+  position: absolute;
+  width: 228px;
+  left: 45%;
+  padding-top:250px;
+  letter-spacing: 0.1em;
+  font-size: 48px;
+}
+h5{
+  position: absolute;
+  width: 228px;
+  left: 42%;
+  padding-top:250px;
+  letter-spacing: 0.1em;
+  font-size: 48px;
+}
+
+.two{
+  font-size: 20px;
+}
+.films{
+  display: flex;
+  padding-top: 500px;
+  margin-left: 3%;
+  margin-right: 15%;
+
+
+
+}
+.films_item{
+
+  position: relative;
+  margin-left: 15%;
+  padding-left: 50px;
+  height: 430px;
+  width: 984px;
+  display: inline-block;
+
+  background: #FAFAFA;
+  box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.22), 0px 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+
+
+
+}
+.films_item_text{
+  position: relative;
+  display: block;
+  left: 30%;
+  width: 687px;
+  font-size: 24px;
+  padding-top: 56px;
+
+}
+.films_item_icon{
+  position: absolute;
+  top: 36px;;
+  left: 20px;
+  z-index: 1;
+
+}
+.second{
+  padding-top: 130px;
+  font-size: 18px;
+}
+.button_2{
+  position: absolute;
+  right: 23%;
+  top: 350px;
+  border-radius: 8px;
+  width: 180px;
+  height: 40px;
+  background-color: #032C4A;
+  color: white;
+  font-size: 24px;
+  font-family: Abhaya Libre;
+  border: 1px solid;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+
+}
+.secondfilm{
+  top: 70px;
+}
+.thirdfilm{
+  top: 140px;
+}
+.fourthfilm{
+  top: 210px;
+}
+.reviews{
+  position: absolute;
+  padding-top: 500px;
+  display: flex;
+  margin-left: 9.7%;
+  margin-right: 9.7%;
+}
+.reviews_item{
+  position: relative;
+  display: inline-block;
+
+}
+.reviews_text{
+  position: relative;
+  margin-left:70%;
+  margin-top: 90px;
+  display: block;
+  padding-bottom: 0;
+  width: 321px;
+  font-size: 20px;
+  font-family: roboto;
+  letter-spacing: 0.02em;
+
+}
+.reviews_icon{
+  position: absolute;
+  margin-top: 0;
+}
+.opinion{
+  position: absolute;
+  top: 50px;
+  padding-top: 0;
+  font-size: 14px;
+  width: 258px;
+}
+.rew_border{
+
+  position: absolute;
+  top: 50px;
+  width: 320px;
+  left: 200px;
+  height: 240px;
+
+  background: #E8E8E8;
+}
+.border2{
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+.rev2{
+  position: relative;
+  display: flex;
+
+}
+.icon_2{
+  position: absolute;
+  top: 0;
+  padding-left: 760px;
+}
+.revtext{
+  left: 70%;
+  margin-top:90px;
+}
+.revtext_2{
+  position: absolute;
+  top: 50px;
+  left: 60%;
+  font-size: 14px;
+  width: 258px;
+}
+.bord2{
+  z-index: 0;
+  left: 120%;
+  width: 320px;
+}
+.border3{
+  position: absolute;
+  top: 50px;
+  left: 219%;
+}
+.rew_second{
+  padding-top:900px;
+}
+.foot{
+  padding-top: 1300px;
+  display: flex;
+
+}
+
+
+.us{
+  position: relative;
+  top: 0;
+  left: 7%;
+  width: 350px;
+  z-index: 1;
+  right: 7%;
+
+}
+.us_text{
+  line-height: 30px;
+  font-size: 22px;
+  color: white;
+}
+.us_item{
+  font-size: 26px;
+  color: white;
+  padding-top: 20px;
+}
+.foot_png{
+  position: absolute;
+  z-index: 0;
+  padding-top: 0;
+  width: 100%;
+}
+a:link{
+  color: #DAA520;
+  padding: 2px;
+}
+a:hover{
+
+  color: #DAA520;
+}
+.sponsor{
+  padding-top: 40px;
+  height: 30px;
+}
+.sponsor_items{
+  display: flex;
+  padding-right: 15%;
+  padding-left: 15%;
+  justify-content: space-between;
+}
+.spon_icon{
+  width: 75px;
+}
+
+hr{
+  margin-bottom: 0.5px;
+}
